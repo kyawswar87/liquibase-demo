@@ -1,0 +1,6 @@
+---
+databaseChangeLog:
+   - includeAll:
+       path: /create_tables/
+   - includeAll:
+       path: /releases/
