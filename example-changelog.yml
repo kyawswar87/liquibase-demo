@@ -5,7 +5,7 @@ databaseChangeLog:
           username: root
   - changeSet:
       id: 1
-      author: nvoxland
+      author: kyawswar
       changes:
         -  tagDatabase:  
             tag:  version_1.0
@@ -32,7 +32,7 @@ databaseChangeLog:
                   type: char(2)
   - changeSet:
       id: 2
-      author: nvoxland
+      author: kyawswar
       changes:
         -  tagDatabase:  
             tag:  version_1.1
@@ -44,7 +44,7 @@ databaseChangeLog:
                   type: varchar(8)
   - changeSet:
       id: 3
-      author: nvoxland
+      author: kyawswar
       changes:
         -  tagDatabase:  
             tag:  version_1.2
