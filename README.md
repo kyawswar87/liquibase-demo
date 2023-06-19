@@ -64,4 +64,9 @@ Run the update command with root-changelog.yml.
 
 It will load change log files from create_tables and releases folder.
 
+# generate change log file from existing database
+we can use generate-changelog command as follow.
+
+```$ liquibase generate-changelog - changelog-file=example-changelog.xml```
+
 Please read Liquibase documentation for more advance functionalities.
